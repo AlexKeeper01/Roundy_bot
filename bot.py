@@ -7,7 +7,7 @@ from aiogram.types import Message, FSInputFile
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 
-TOKEN = os.getenv("7794555956:AAHMWRWcEbzPNjjxGdHm3tl6gtMwSv4I_PA")
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(
     token=TOKEN,
