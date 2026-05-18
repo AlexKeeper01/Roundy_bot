@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  bot:
+    build: .
+    container_name: roundy_bot
+    restart: always
+    environment:
+      - BOT_TOKEN=7794555956:AAHMWRWcEbzPNjjxGdHm3tl6gtMwSv4I_PA
